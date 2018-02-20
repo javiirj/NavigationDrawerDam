@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -56,6 +58,13 @@ public class LoginActivity extends AppCompatActivity {
         // 2. Chain together various setter methods to set the dialog characteristics
         builder.setMessage(R.string.dialog_recPass_mensaje)
                 .setTitle(R.string.dialog_recPass_titulo);
+
+        final EditText input = new EditText(LoginActivity.this);
+        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.MATCH_PARENT);
+
+        builder.setView(input);
 
 
         // Añadir botones

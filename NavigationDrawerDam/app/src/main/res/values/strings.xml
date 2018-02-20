@@ -6,7 +6,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <string name="dialog_recPass_mensaje">¿Has olvidado tu contraseña?</string>
+    <string name="dialog_recPass_mensaje">Introduce tu email</string>
     <string name="dialog_recPass_titulo">Recuperar contraseña</string>
     <string name="dialog_rec_ok">Recuperar</string>
     <string name="dialog_rec_cancel">Cancelar</string>
